@@ -1,0 +1,423 @@
+nav{
+    display: flex;
+    background-color:rgb(32, 127, 211);
+    justify-content: space-between;
+    justify-content: space-around;
+    }
+
+a{
+text-decoration: none;
+margin: 20px;
+font-size: 15px;
+color: aliceblue;
+}
+.btn{
+color: aqua;
+width: 160px;
+height: 60px;
+margin: 20px;
+
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: white;
+}
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(./banner-bg.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    justify-content: space-between;
+}
+ .home .content{
+    max-width: 50rem;
+ }
+ .home .content h3{
+font-size: 2rem ;
+text-align: center;
+text-align: center;
+color: white;
+ }
+ .home .content h2{
+    font-size: 2rem ;
+    color: skyblue;
+    text-align: center;
+    padding: 1rem 0;
+    line-height: 0.5;
+     }
+     p{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        justify-content: center;
+     }
+
+     .btn2{
+        display: inline-block;
+        margin-top: 1rem;
+        border-radius: 3rem;
+        background-color: ;
+        padding: 2rem 3.5rem;
+        cursor: pointer;
+        font-size: 1rem;
+
+     }
+     .box container{
+       display: flex; 
+       justify-content: centre;
+       flex-wrap: wrap;
+     }
+    
+     .boxcontainer box{
+        height: 4rem;
+     }
+     .c1{
+      display: flex;
+      justify-content: ;
+     }
+.c1 img{
+   padding: 10%;
+   position:absolute;
+   top: 550px;
+   float: right;
+   width: 350px;
+   height: 250px;
+}
+
+.c2{
+   display: flex;
+   justify-content: center;
+}
+.c2 img{
+   position:absolute;
+   top: 700px;
+   float: right;
+   justify-content: center;
+   width: 350px;
+   height: 250px;
+}
+
+.c3{
+   display: flex;
+   justify-content: right;
+}
+.c3 img{
+   padding: 0 10% 0 0;
+   top: 700px;
+   position: absolute;
+   width: 350px;
+   height: 250px;
+}
+.c4{
+   padding-top: 10%;
+   display: flex;
+   justify-content: space-between;
+}
+ .c4 h4{ 
+color: rgb(29, 134, 169)
+}
+
+.c4 h2{
+   font-size: 2rem ;
+   color: skyblue;
+   text-align: center;
+   padding: 1rem 0;
+   line-height: 0.5;
+    }
+
+    .c4 .btn{
+      color: rgb(227, 231, 239);
+width: 200px;
+height: 30px;
+margin: 20px;
+      
+    }
+.c4 span{
+   color: rgb(22, 216, 216);
+}
+
+.cards{
+   display: flex;
+   justify-content: space-between;   
+}
+.card1{
+   border: 1px;
+   padding: 2px;
+   border-radius:5px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: gray;
+   text-align: center;
+   width: 20px;
+   height: 210px;
+
+}
+
+.card2{
+   border: 1px;
+   padding: 2px;
+   border-radius:5px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: gray;
+   text-align: center;
+   width: 50px;
+   height: 210px;
+
+}
+.card3{
+   border: 1px;
+   padding: 2px;
+   border-radius:5px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: gray;
+   text-align: center;
+   width: 50px;
+   height: 210px;
+}
+.card4{
+   border: 1px;
+   padding: 2px;
+   border-radius:5px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: gray;
+   text-align: center;
+   width: 50px;
+   height: 210px;
+
+}
+
+.card1 h4{
+   font-weight:bolder;
+   font-style:italic;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card2 h4{
+   font-weight:bolder;
+   font-style:italic;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card3 h4{
+   font-weight:bolder;
+   font-style:italic;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card4 h4{
+   font-weight:bolder;
+   font-style:italic;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home1{
+    background: url("./closed-bg.jpg");
+    background-size: cover;
+    background-position: center;
+   background-size: 100% 100%;
+   text-align: center;
+   float: centre;
+   height: 500px;
+   justify-items: center;
+   top: 500px;
+
+   
+    
+}
+.home1 .content1{
+   max-width: 50rem;
+}
+
+.home1 content1 h4{
+   text-align: center;
+   margin-left: 150px;
+
+
+}
+.home1 span{
+   color: aqua;
+   font-size: 20px;
+   font-weight: bolder;
+}
+.max{
+   display: flex;
+   justify-content: space-between;
+   gap: 300px;
+}
+
+ .card7{
+   border: 5px;
+   padding: 2px;
+   border-radius:5px;
+   border-style:groove;
+   border-width: 1px;
+   border-color: gray;
+   text-align: center;
+   width: 450px;
+   height: 300px;
+}
+
+.card6{
+   border: 5px;
+   padding: 2px;
+   border-radius:5px;
+   border-style:groove;
+   border-width: 1px;
+   border-color: gray;
+   text-align: center;
+   width: 450px;
+   height: 300px;
+}
+.card5{
+   border: 5px;
+   padding: 2px;
+   border-radius:5px;
+   border-style:groove;
+   border-width: 1px;
+   border-color: gray;
+   text-align: center;
+   width: 450px;
+   height: 300px;
+}
+.word{
+   display: flex;
+   justify-content: space-between;
+}
+.max h5{
+font-size: 10px;
+
+}
+.max h6{
+   float: left;
+   font-size: 10px;
+}
+.max p{
+   font-style: italic;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+}
+
+.btn2{
+   display: inline-block;
+   margin-top: 1rem;
+   border-radius: 3rem;
+   background-color: ;
+   padding: 2rem 3.5rem;
+   cursor: pointer;
+   font-size: 1rem;
+   gap: 20px;
+
+}
+.bottom{
+  text-align: center;
+margin-left: 350px;
+margin-top: 50px;
+   color: aqua;
+   height: 60px;
+   width: 100%;
+}
+.btn3{
+   color: aqua;
+   text-align: center;
+}
+.writing{
+   text-align: center;
+   margin-left: 10%;
+}
+.writing h5{
+   text-align: center;
+   margin-left: 500px;
+}
+.writing h2{
+
+   text-align: center;
+   margin-left: 50px;
+}
+.lasts{
+   display: flex;
+   justify-content: space-between;
+}
+ .lasts  .last1{
+   margin-top: 150px;
+}
+.lasts h3{
+   text-align:;
+   margin: 20px;
+}
+.last1{
+   border: 5px;
+   padding: 2px;
+   border-radius:5px;
+   border-style:groove;
+   border-width: 1px;
+   border-color: gray;
+   text-align: center;
+   width: 300px;
+   height: 400px;
+}
+.last1 span{
+   color: aqua;
+}
+.last1 h2{
+color: aqua;
+}
+.bt4{
+   color: rgb(14, 15, 15);
+   background-color: aqua;
+
+}
+.lasts .last2{
+   margin-top: 150px;
+
+}
+
+.last2{
+   border: 5px;
+   padding: 2px;
+   border-radius:5px;
+   border-style:groove;
+   border-width: 1px;
+   border-color: gray;
+   text-align: center;
+   width: 300px;
+   height: 400px;
+}
+.last2 span{
+   color: aqua;
+}
+.last2 h2{
+   color: aqua;
+}
+
+.lasts .last3{
+   margin-top: 150px;
+}
+.last3{
+   border: 5px;
+   padding: 2px;
+   border-radius:5px;
+   border-style:groove;
+   border-width: 1px;
+   border-color: gray;
+   text-align: center;
+   width: 300px;
+   height: 400px;
+}
+.lasts span{
+   color: aqua;
+}
+.lasts h2{
+   
+   color: aqua;
+}
+   
+.lasts h5{
+   color: aqua;
+}
